@@ -17,3 +17,4 @@ This section is provided for reference only, to give you insight into how the pr
 ## Dependencies
 - `npx create-next-app@latest nextjs-cors`
 - `npm install cors`
+- `npm install --save-dev @types/cors`
