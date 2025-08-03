@@ -5,9 +5,9 @@ export async function GET(req: NextRequest) {
     const res = NextResponse.json({ 
         message: "Fetch success!"
     })
-    return cors(req, res)
+    return cors(req, res);
 }
 
 export async function OPTIONS(req: NextRequest) {
-    return cors(req, new NextResponse())
+    return cors(req, new NextResponse());
 }
